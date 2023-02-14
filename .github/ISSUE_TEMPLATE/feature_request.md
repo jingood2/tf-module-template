@@ -8,9 +8,14 @@ assignees: ''
 ---
 
 ## Issue: :white_check_mark: FEATURE
-Feature 작업 사항을 입력해주세요
-### Description
-설명을 작성해주세요
+Related :
+Close :
+
+## Comment
+*
+
+## Test
+*
 
 ### ToDo
 - [ ] 
