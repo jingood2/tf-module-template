@@ -1,1 +1,1 @@
-example2 = "test"
+example_map = "example2"
