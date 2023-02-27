@@ -11,7 +11,7 @@ repos:
   hooks:
     - id: terraform_fmt
     # unknown error invoked
-    #- id: terraform_validate
+    - id: terraform_validate
     #  exclude: '^[^/]+$'
     - id: terraform_checkov
       args:
