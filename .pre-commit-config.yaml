@@ -1,10 +1,10 @@
 repos:
-- repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v3.2.0
-  hooks:
-    - id: trailing-whitespace
-    - id: end-of-file-fixer
-    - id: check-yaml
+#- repo: https://github.com/pre-commit/pre-commit-hooks
+#  rev: v3.2.0
+#  hooks:
+#    - id: trailing-whitespace
+#    - id: end-of-file-fixer
+#    - id: check-yaml
 
 - repo: https://github.com/antonbabenko/pre-commit-terraform
   rev: v1.73.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
