@@ -82,7 +82,7 @@ $ brew install pre-commit tfswitch tflint tfsec checkov terraform-docs
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.19.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.54.0 |
 
 ## Modules
 
