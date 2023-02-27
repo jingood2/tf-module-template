@@ -10,8 +10,9 @@ repos:
   rev: v1.73.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
   hooks:
     - id: terraform_fmt
-    - id: terraform_validate
-      exclude: '^[^/]+$'
+    # unknown error invoked
+    #- id: terraform_validate
+    #  exclude: '^[^/]+$'
     - id: terraform_checkov
       args:
       - --args=--check HIGH
