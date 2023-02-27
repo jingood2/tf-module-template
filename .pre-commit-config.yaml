@@ -8,7 +8,6 @@ repos:
 
 - repo: https://github.com/antonbabenko/pre-commit-terraform
   rev: v1.73.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
-  verbose: true
   hooks:
     - id: terraform_fmt
     # unknown error invoked
@@ -28,6 +27,7 @@ repos:
       name: terraform-docs-modules
       entry: terraform-docs .
       language: system
+      verbose: true
       pass_filenames: false
       always_run: true
     - id: terraform-docs-examples
