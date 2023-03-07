@@ -12,8 +12,13 @@ repos:
     - id: terraform_fmt
     - id: terraform_validate
     - id: terraform_checkov
+      args:
+        - --args=--check HIGH
+        - --args=--check CKV_AWS_123
     - id: terraform_tflint
     - id: terraform_tfsec
+      args:
+        - --args=--minimum-severity HIGH
 
 - repo: local
   hooks:
